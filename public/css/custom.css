@@ -1,0 +1,43 @@
+.has-feedback .invalid-feedback,.form-group .invalid-feedback, .error {
+    color: #dd4b39;
+}
+
+.form-group.has-feedback .is-invalid {
+    border-color: #dd4b39;
+    box-shadow: none;
+}
+
+label.required:after {
+    content: '*';
+    color: red;
+    padding-left: 5px;
+}
+
+.swal2-popup {
+    font-size: 1.5rem !important;
+}
+
+.message {
+    display: flex;
+    justify-content: space-between;
+}
+
+.w-25 {
+    width: 25%;
+}
+
+.w-75 {
+    width: 75%;
+}
+
+.word-break {
+    word-break: break-all;
+}
+
+audio {
+    outline: none;
+}
+
+.dashboard-widgets a {
+    color: unset;
+}
